@@ -6,4 +6,4 @@ quote = try_me()
 
 f"{quote}"
 
-st.button("Next", on_click=st.experimental_rerun())
+st.button("Next")
