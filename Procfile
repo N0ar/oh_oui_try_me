@@ -1,1 +1,1 @@
-web: pip install . -U && oh_oui_try_me-run
+web: sh setup.sh && streamlit run app.py

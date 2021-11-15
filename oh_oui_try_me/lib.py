@@ -42,9 +42,4 @@ def try_me():
         "TV : Transvestite. Un TV est un travesti."
     ]
     i = random.randint(0, len(acronyme)-1)
-    print(acronyme[i])
     return(acronyme[i])
-
-
-if __name__ == "__main__":
-    try_me()

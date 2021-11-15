@@ -3,4 +3,5 @@
 
 from oh_oui_try_me.lib import try_me
 
-try_me()
+if __name__ == "__main__":
+    print(try_me())
