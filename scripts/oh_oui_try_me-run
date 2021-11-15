@@ -3,7 +3,6 @@
 
 import random
 
-
 def try_me():
     acronyme = [
         'ATM',
@@ -20,9 +19,9 @@ def try_me():
         'RPG',
         'SOMF',
     ]
-    i = random.randint(0, len(acronyme))
-    return acronyme[i]
+    i = random.randint(0, len(acronyme)-1)
+    print(acronyme[i])
 
 
 if __name__ == "__main__":
-    print(try_me())
+    try_me()
